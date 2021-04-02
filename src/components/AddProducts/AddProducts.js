@@ -15,7 +15,7 @@ const AddProducts = () => {
             quantity: data.quantity,
             imageURL: imageURL
         }
-        const url = `http://localhost:5055/addProducts`
+        const url = `https://nameless-atoll-08724.herokuapp.com/addProducts`
 
 
         fetch(url, {

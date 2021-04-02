@@ -10,7 +10,7 @@ const Home = () => {
 
     useEffect(()=>{
         setTimeout(()=>{
-            fetch('http://localhost:5055/products')
+            fetch('https://nameless-atoll-08724.herokuapp.com/products')
                 .then(res => res.json())
                 .then(data =>{
                     setProducts(data)

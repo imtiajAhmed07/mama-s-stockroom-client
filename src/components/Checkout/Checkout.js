@@ -11,7 +11,7 @@ const Checkout = () => {
     const {name, price, quantity} = product
 
     useEffect(()=>{
-        fetch(`http://localhost:5055/checkout/${id}`)
+        fetch(`https://nameless-atoll-08724.herokuapp.com/checkout/${id}`)
             .then(res => res.json())
             .then(data => setProduct(data))
     }, [])
@@ -21,7 +21,7 @@ const Checkout = () => {
         const {email} = loggedInUser
         const orderedInfo = {name, price, quantity, email}
 
-        const url = `http://localhost:5055/addedProduct`
+        const url = `https://nameless-atoll-08724.herokuapp.com/addedProduct`
 
         fetch(url, {
             method: "POST",
