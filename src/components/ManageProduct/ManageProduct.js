@@ -1,8 +1,7 @@
 import { render } from '@testing-library/react';
 import React, { useEffect, useState } from 'react';
 
-class ManageProduct extends React.Component
-{
+class ManageProduct extends React.Component{
     state = {
         products: []
     }
