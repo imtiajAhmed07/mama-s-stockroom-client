@@ -35,15 +35,15 @@ function App() {
           <Route path="/login">
             <Login></Login>
           </Route>
-          <Route path="/orders">
+          <PrivateRoute path="/orders">
             <Orders></Orders>
-          </Route>
-          <Route exact path="/admin">
+          </PrivateRoute>
+          <PrivateRoute exact path="/admin">
             <Admin></Admin>
-          </Route>
-          <Route path="/checkout/:id">
+          </PrivateRoute>
+          <PrivateRoute path="/checkout/:id">
             <Checkout></Checkout>
-          </Route>
+          </PrivateRoute>
         </Switch>
       </Router>
     </UserContext.Provider>
