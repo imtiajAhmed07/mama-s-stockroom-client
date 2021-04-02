@@ -1,0 +1,16 @@
+input{
+    width: 300px;
+}
+
+.submitButton{
+    border: none;
+    outline: none;
+    color: white;
+    padding: 7px 0;
+    border-radius: 4px;
+    background-color: #10b981;
+}
+
+.addProductContainer{
+    border: none;
+}

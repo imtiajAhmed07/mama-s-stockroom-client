@@ -1,5 +1,5 @@
 import React, { useEffect, useState, useContext } from 'react';
-import { useParams } from 'react-router';
+import { useParams } from 'react-router-dom';
 import './Checkout.css'
 import { UserContext } from '../../App';
 
@@ -48,7 +48,7 @@ const Checkout = () => {
                 <tbody>
                     <tr>
                         <td>{name}</td>
-                        <td>{price}</td>
+                        <td>${price}</td>
                         <td>{quantity}</td>
                     </tr>
                 </tbody>

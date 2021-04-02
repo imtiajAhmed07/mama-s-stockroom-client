@@ -21,9 +21,28 @@ const Orders = () => {
 
     return (
         <div>
-            {
-                orderedProducts.map(pd => <p>Name: {pd.name}</p>)
-            }
+
+            <h3 className="text-center mb-5 ">Your Order History</h3>
+
+            <table className="table table-dark" style={{width: "90%", margin: "auto"}}>
+                <thead>
+                    <tr>
+                        <th scope="col">Name</th>
+                        <th scope="col">Price</th>
+                        <th scope="col">Stock</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {
+                        orderedProducts.map(pd =>
+                            <tr>
+                                <td>{pd.name}</td>
+                                <td>${pd.price}</td>
+                                <td>{pd.quantity}</td>
+                            </tr>)
+                    }
+                </tbody>
+            </table>
         </div>
     );
 };
