@@ -1,0 +1,26 @@
+.productContainer{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.spinner{
+    width: 300px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: -99999;
+}
+
+.loginBtn{
+    padding: 5px 15px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    background-color: #10b981;
+    float: right;
+    color: white;
+}

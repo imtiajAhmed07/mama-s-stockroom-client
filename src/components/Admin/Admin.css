@@ -1,0 +1,14 @@
+.adminContainer{
+    display: flex;
+    width: 90%;
+    height: 80vh;
+    margin: auto;
+}
+
+.adminContainer{
+    border: 1px solid black;
+}
+
+.addProductContainer{
+    border: 1px solid rgb(19, 168, 118);
+}

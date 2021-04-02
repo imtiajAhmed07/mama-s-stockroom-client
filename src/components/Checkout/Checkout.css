@@ -1,0 +1,14 @@
+.checkoutContainer{
+    width: 80%;
+    margin: auto;
+}
+
+.checkoutBtn{
+    padding: 5px 15px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    background-color: #10b981;
+    float: right;
+    color: white;
+}

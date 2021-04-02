@@ -1,0 +1,79 @@
+.createAccountContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 400px;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    height: 500px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.accountCreateForm{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.createUserForm{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.accountCreateForm input{
+    border: none;
+    width: 300px;
+    border-bottom: 1px solid rgba(0, 0, 0,0.2);
+    outline: none;
+}
+
+::placeholder{
+    color: black;
+}
+
+.accountCreateBtn{
+    background-color: #211031;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 5px 50px;
+    border-radius: 5px;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+  transition: background-color 5000s ease-in-out 0s;
+}
+
+
+.continueWithSocial{
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.socialButton{
+    padding: 5px 50px;
+    border: 1px solid rgba(0, 0, 0,0.2);
+    border-radius: 5px;
+    color: white;
+}
+
+.googleBtn{
+    background-color: rgb(238, 166, 163);
+}
+
+.facebookBtn{
+    background-color: rgb(95, 155, 233);
+}
+
+.loginText{
+    color: black;
+    font-weight: 500;
+}
