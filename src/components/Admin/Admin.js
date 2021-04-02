@@ -35,7 +35,7 @@ const Admin = () => {
                                 <Link className="text-white" to="/addProduct">Add Product</Link>
                             </li>
                             <li>
-                                <Link className="text-white" to="/">ManageProduct</Link>
+                                <Link className="text-white" to="/manageProduct">ManageProduct</Link>
                             </li>
 
                         </ul>
